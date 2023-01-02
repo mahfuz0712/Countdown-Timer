@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(`July 12 ${currentYear } 00:00:00`);
+const newYearTime = new Date(`July 12 2023 00:00:00`);
 
 // Update countdown time
 function updateCountdown() {
