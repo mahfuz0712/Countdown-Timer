@@ -5,12 +5,12 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const examHSCTime = new Date(`July 12 ${currentYear} 00:00:00`);
+const exam = new Date(`July 12 ${currentYear} 00:00:00`);
 
 // Update countdown time
 function updateCountdown() {
 	const currentTime = new Date();
-	const diff = examHSCTime - currentTime;
+	const diff = exam - currentTime;
 
 	const d = Math.floor(diff / 1000 / 60 / 60 / 24);
 	const h = Math.floor(diff / 1000 / 60 / 60) % 24;
