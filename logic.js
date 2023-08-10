@@ -2,10 +2,9 @@ const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
-
 const currentYear = new Date().getFullYear();
 
-const exam = new Date(`July 12 ${currentYear} 00:00:00`);
+const exam = new Date(`August 17 ${currentYear} 10:00:00`);
 
 // Update countdown time
 function updateCountdown() {
